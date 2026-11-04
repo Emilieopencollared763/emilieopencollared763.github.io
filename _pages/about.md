@@ -78,7 +78,7 @@ Population structure inflates association statistics, so this pipeline takes 100
 
 - NOIP 2019, First Prize, Shanxi Division (ranked 10 of 293)
 - CCF CSP, top 10%
-- Luojia Excellence International Exchange Scholarship, Wuhan University, 2024 (RMB 50,000, top 0.01% university-wide)
+- Luojia Excellence International Exchange Scholarship, Wuhan University, 2024 (RMB 50,000)
 
 <span class="anchor" id="contact"></span>
 
