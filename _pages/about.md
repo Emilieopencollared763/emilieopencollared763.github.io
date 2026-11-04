@@ -16,7 +16,7 @@ I am a master's student in Computer Science at UC San Diego (Class of 2027). Bef
 
 # Projects & Research
 
-<div class="paper-box"><div class="paper-box-image"><div><div class="badge">ROS 2, Rubik Pi 3, 2026</div><img src="images/projects/nav_trajectory.png" alt="Estimated trajectory of the best navigation run with three waypoints and three AprilTag landmarks" width="100%"><p class="caption">Estimated trajectory of the best run: 16 motion primitives, 59.5 s, three waypoints, three landmarks.</p></div></div>
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">ROS 2, Rubik Pi 3, 2026</div><a href="images/projects/nav_trajectory.png" target="_blank" rel="noopener"><img src="images/projects/nav_trajectory.png" alt="Estimated paths of seven navigation runs over three waypoints and three AprilTag landmarks, best run highlighted" width="100%"></a><p class="caption">Estimated paths of the 7 runs flagged complete; the best run is highlighted. Filter estimates, no external ground truth.</p></div></div>
 <div class="paper-box-text" markdown="1">
 
 **Closed-loop waypoint navigation with AprilTag landmarks**
@@ -24,6 +24,9 @@ I am a master's student in Computer Science at UC San Diego (Class of 2027). Bef
 <span class="meta">UC San Diego, Sep 2026 – present. Team of 2; responsible for scheme design and parameter tuning, calibration, sensor experiments, test tooling and real-robot validation. The navigation core was written by my teammate.</span>
 
 A small rover drifts when it executes motion primitives open-loop, so after every primitive it stops, observes AprilTag landmarks, updates an SE(2) extended Kalman filter with chi-square gating, and replans. A fine spin-calibration level cut the smallest executable turn from about 24° to 3.05° (CCW) and 4.55° (CW). Across 24 archived runs, the best run ended with estimated residuals of 3.1, 3.3 and 5.1 cm at the three waypoints (filter estimates, no external ground truth).
+
+<span class="links"><a href="https://www.youtube.com/shorts/DX3TtBoyumA" target="_blank" rel="noopener">Video</a></span>
+<!-- add when the repository is public: · <a href="https://github.com/zzyzhbs/apriltag-waypoint-navigation" target="_blank" rel="noopener">Code</a> -->
 
 </div></div>
 
@@ -36,22 +39,22 @@ A small rover drifts when it executes motion primitives open-loop, so after ever
 
 <span class="meta">Research assistant, Aug 2024 – Jun 2025, advised by Prof. Dazhao Cheng.</span>
 
-Non-linear Transformer operators are costly on FPGAs, and their resource demands are hard to schedule together. I simplified the operators with low-order polynomial approximation and integer quantization (after I-BERT), and modeled scheduling as integer nonlinear programming over resource vectors and a task dependency graph, solved by dynamic programming. In simulation the best static configuration, Fix(18,2,2,2), averaged about 18.39% longer inference time than the dynamic-programming schedule. I also lead-wrote, on the PI's behalf, the lab's NSFC Young Scientists Fund (Category C) proposal.
+Non-linear Transformer operators are costly on FPGAs, and their resource demands are hard to schedule together. I simplified the operators with low-order polynomial approximation and integer quantization (after I-BERT), and modeled scheduling as integer nonlinear programming over resource vectors and a task dependency graph, solved by dynamic programming. In simulation the best fixed tile configuration, Fix(18,2,2,2), averaged about 18.39% longer inference time than the dynamic-programming schedule. I also lead-wrote, on the PI's behalf, the lab's NSFC Young Scientists Fund (Category C) proposal.
 
 </div></div>
 
-<div class="paper-box"><div class="paper-box-image"><div><div class="badge">Mustango, SynTheory, 2026</div><img src="images/projects/mustango_probe.png" alt="Bar chart of linear-probe accuracy by music-theory concept on Mustango representations, each against chance" width="100%"><p class="caption">Linear-probe accuracy by concept against chance, from the submitted notebook (section 2.2 table); the notes bar is a handcrafted chroma control, not the model. Tempo, a regression task, reached R² 0.74.</p></div></div>
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">Mustango, SynTheory, 2026</div><a href="images/projects/mustango_probe.png" target="_blank" rel="noopener"><img src="images/projects/mustango_probe.png" alt="Bar chart of linear-probe accuracy by music-theory concept on Mustango representations, each against chance" width="100%"></a><p class="caption">Linear-probe accuracy by concept against chance, from the submitted notebook (section 2.2 table); the notes bar is a handcrafted chroma control, not the model. Tempo, a regression task, reached R² 0.74.</p></div></div>
 <div class="paper-box-text" markdown="1">
 
 **Probing music-theory concepts in a text-to-music diffusion model**
 
 <span class="meta">UC San Diego, May – Jun 2026. Team of 4; responsible for the Mustango deployment, all Mustango probing experiments, and merging four models' results into one notebook.</span>
 
-Does a latent-diffusion music generator encode music theory in its intermediate representations? Adapting the SynTheory probing method, I trained linear probes on Mustango's VAE latents and UNet activations over a 17-run sweep of layers and diffusion timesteps. Chord-type accuracy reached 0.88 on 1,000 clips (chance 0.25), while pitch-class accuracy from VAE latents stayed near chance (about 0.10 against 0.08) even with frequency-preserving pooling; a handcrafted chroma control on the same split reached 0.72, which places the bottleneck in the latent representation itself, upstream of pooling.
+Does a latent-diffusion music generator encode music theory in its intermediate representations? Adapting the SynTheory probing method, I trained linear probes on Mustango's VAE latents and UNet activations over a 17-run sweep of layers and diffusion timesteps. Chord-type accuracy reached 0.88 on 1,000 clips (chance 0.25), while pitch-class accuracy from VAE latents stayed near chance (about 0.10 against 0.08) even with frequency-preserving pooling. A handcrafted chroma control on the same split reached 0.72, so the bottleneck is in the latent representation, not in the pooling.
 
 </div></div>
 
-<div class="paper-box"><div class="paper-box-image"><div><div class="badge">PLINK, GCTA, 2026</div><img src="images/projects/gwas_qq.png" alt="Q-Q plot of observed against expected p-values for linear regression and the linear mixed model" width="100%"><p class="caption">Q-Q plot of observed against expected p-values for both methods on 118,836 variants, from the repository's results/plots.</p></div></div>
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">PLINK, GCTA, 2026</div><a href="images/projects/gwas_qq.png" target="_blank" rel="noopener"><img src="images/projects/gwas_qq.png" alt="Q-Q plot of observed against expected p-values for linear regression and the linear mixed model" width="100%"></a><p class="caption">Q-Q plot of observed against expected p-values for both methods on 118,836 variants, from the repository's results/plots.</p></div></div>
 <div class="paper-box-text" markdown="1">
 
 **A reproducible GWAS pipeline: linear regression versus linear mixed model**
