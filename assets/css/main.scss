@@ -1,0 +1,149 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+    
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+    
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
+    }
+    
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
+        }
+        
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
+        }
+
+    }
+
+
+}
+
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
+}
+
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
+}
+/* ---- Site-specific additions (zzyzhbs.github.io) ---- */
+.paper-box {
+  padding: 1.2em 0;
+  align-items: flex-start;
+  .paper-box-image { flex-direction: column; align-items: center;
+    img { max-width: 100%; }
+    .caption { font-size: 0.78em; line-height: 1.35; color: #666; margin: 0.4em 0 0; text-align: left; }
+  }
+  .paper-box-text { p { margin-bottom: 0.6em; } }
+  .meta { display: block; font-size: 0.82em; line-height: 1.4; color: #666; margin-bottom: 0.6em; }
+  .links { font-size: 0.9em; }
+}
+.paper-box.no-image .paper-box-text { max-width: 100%; padding-left: 0; }
+.badge--inline { position: static; display: inline-block; margin: 0 0 0.6em; }
+.page__content h1 { font-size: 1.4em; margin-top: 1.6em; border-bottom: 1px solid #efefef; padding-bottom: 0.2em; }
+table.edu { width: 100%; font-size: 0.92em; border-collapse: collapse; margin-bottom: 1em;
+  td { padding: 0.5em 0.4em 0.5em 0; border-bottom: 1px solid #efefef; vertical-align: top; }
+  td.date { white-space: nowrap; text-align: right; color: #555; }
+}
+@media (max-width: 500px) {
+  table.edu td.date { white-space: normal; min-width: 7em; }
+}
+.author__urls li { font-size: 0.95em; }
+
+/* Sidebar: the template leaves .profile_box as a flex row at every width, which overflows the
+   two-column layout. Column at >= $large; a wrapped strip with labeled links below it. */
+.profile_box {
+  @include breakpoint($large) { display: block; }
+  flex-wrap: wrap;
+  .author__urls-wrapper { flex-basis: 100%; }
+}
+@media (max-width: 57.75em) {
+  .author__urls { display: block; position: static; margin: 0.4em 0 0; padding: 0; border: 0; background: transparent; box-shadow: none; z-index: 1;
+    &:before, &:after { display: none; }
+    li { display: inline-block; margin-right: 1.2em; }
+    a { display: inline-block; margin-bottom: 0; }
+  }
+  .author__urls_sm { display: none; }
+  .author__content { padding-left: 0.6em; }
+}
