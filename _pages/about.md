@@ -10,7 +10,7 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-I am a master's student in Computer Science at UC San Diego (Class of 2027). Before UCSD I studied Computer Science at Wuhan University (B.Eng., 2021–2025) and spent the fall of 2023 at UC Berkeley on exchange. My interests are robotics software, lab automation and agent systems: control loops on real hardware, and the tests and logs that make them repeatable. Recent work includes closed-loop waypoint navigation on a Rubik Pi rover, workload modeling for Transformer inference on edge FPGAs at ICSLAB, Wuhan University, and linear probing of a text-to-music diffusion model. I am available for internships from January 2027.
+I am a master's student in Computer Science and Engineering at UC San Diego (Class of 2027). Before UCSD I studied Computer Science at Wuhan University (B.Eng., 2021–2025) and spent the fall of 2023 at UC Berkeley on exchange. My interests are robotics software, lab automation and agent systems: control loops on real hardware, and the tests and logs that make them repeatable. Recent work includes closed-loop waypoint navigation on a Rubik Pi rover, workload modeling for Transformer inference on edge FPGAs at ICSLAB, Wuhan University, and linear probing of a text-to-music diffusion model. I am available for internships from January 2027.
 
 <span class="anchor" id="projects"></span>
 
@@ -71,7 +71,7 @@ Population structure inflates association statistics, so this pipeline takes 100
 # Education & Awards
 
 <table class="edu">
-<tr><td><strong>UC San Diego</strong><br>M.S. in Computer Science, GPA 4.0/4.0</td><td class="date">Sep 2025 – 2027 (expected)</td></tr>
+<tr><td><strong>UC San Diego</strong><br>M.S. in Computer Science and Engineering, GPA 4.0/4.0</td><td class="date">Sep 2025 – 2027 (expected)</td></tr>
 <tr><td><strong>Wuhan University</strong><br>B.Eng. in Computer Science and Technology, GPA 3.87/4.00</td><td class="date">Sep 2021 – Jun 2025</td></tr>
 <tr><td><strong>UC Berkeley</strong><br>Exchange student, Berkeley Global Access, GPA 4.0</td><td class="date">Aug – Dec 2023</td></tr>
 </table>
@@ -90,4 +90,4 @@ Email is the best way to reach me: [s7yuan@ucsd.edu](mailto:s7yuan@ucsd.edu). Co
 
 # 中文摘要
 
-袁盛琪，UCSD 计算机科学硕士在读（2027 届），本科武汉大学。方向：机器人软件、实验室自动化、智能体系统。做过：Rubik Pi 小车 AprilTag 闭环航点导航（方案设计、标定、实车验证）；边缘端 Transformer 推理调度（最优静态配置推理时间高出动态规划约 18.39%；受托主笔了青年科学基金申请书）；Mustango 乐理探测（和弦 0.88，随机 0.25）；GWAS 流水线（PLINK 对 GCTA）。2027 年 1 月起可实习。
+袁盛琪，UCSD 计算机科学与工程硕士在读（2027 届），本科武汉大学。方向：机器人软件、实验室自动化、智能体系统。做过：Rubik Pi 小车 AprilTag 闭环航点导航（方案设计、标定、实车验证）；边缘端 Transformer 推理调度（最优静态配置推理时间高出动态规划约 18.39%；受托主笔了青年科学基金申请书）；Mustango 乐理探测（和弦 0.88，随机 0.25）；GWAS 流水线（PLINK 对 GCTA）。2027 年 1 月起可实习。
