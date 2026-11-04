@@ -25,8 +25,7 @@ I am a master's student in Computer Science at UC San Diego (Class of 2027). Bef
 
 A small rover drifts when it executes motion primitives open-loop, so after every primitive it stops, observes AprilTag landmarks, updates an SE(2) extended Kalman filter with chi-square gating, and replans. A fine spin-calibration level cut the smallest executable turn from about 24° to 3.05° (CCW) and 4.55° (CW). Across 24 archived runs, the best run ended with estimated residuals of 3.1, 3.3 and 5.1 cm at the three waypoints (filter estimates, no external ground truth).
 
-<span class="links"><a href="https://www.youtube.com/shorts/DX3TtBoyumA" target="_blank" rel="noopener">Video</a></span>
-<!-- add when the repository is public: · <a href="https://github.com/zzyzhbs/apriltag-waypoint-navigation" target="_blank" rel="noopener">Code</a> -->
+<span class="links"><a href="https://github.com/zzyzhbs/apriltag-waypoint-navigation" target="_blank" rel="noopener">Code on GitHub</a> · <a href="https://www.youtube.com/shorts/DX3TtBoyumA" target="_blank" rel="noopener">Video</a></span>
 
 </div></div>
 
