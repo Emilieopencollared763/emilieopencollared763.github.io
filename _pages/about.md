@@ -10,7 +10,7 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-I am a master's student in Computer Science and Engineering at UC San Diego (Class of 2027). Before UCSD I studied Computer Science at Wuhan University (B.Eng., 2021–2025) and spent the fall of 2023 at UC Berkeley on exchange. My interests are robotics software, lab automation and agent systems: control loops on real hardware, and the tests and logs that make them repeatable. Recent work includes closed-loop waypoint navigation on a Rubik Pi rover, workload modeling for Transformer inference on edge FPGAs at ICSLAB, Wuhan University, and linear probing of a text-to-music diffusion model. I am available for internships from January 2027.
+I am a master's student in Computer Science and Engineering at UC San Diego (Class of 2027). Before UCSD I studied Computer Science at Wuhan University (B.Eng., 2021–2025) and spent the fall of 2023 at UC Berkeley on exchange. My interests are robotics software, lab automation and agent systems: control loops on real hardware, and the tests and logs that make them repeatable. Recent work includes closed-loop waypoint navigation on a Rubik Pi rover, workload modeling for Transformer inference on edge FPGAs at ICSLAB, Wuhan University, and linear probing of a text-to-music diffusion model.
 
 <span class="anchor" id="projects"></span>
 
