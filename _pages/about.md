@@ -84,10 +84,10 @@ Population structure inflates association statistics, so this pipeline takes 100
 
 # Contact
 
-Email is the best way to reach me: [s7yuan@ucsd.edu](mailto:s7yuan@ucsd.edu). Code is on [GitHub](https://github.com/zzyzhbs){:target="_blank" rel="noopener"}.
+Email is the best way to reach me: [s7yuan@ucsd.edu](mailto:s7yuan@ucsd.edu). Code is on [GitHub](https://github.com/zzyzhbs){:target="_blank" rel="noopener"}. A one-page résumé is linked as CV in the left column; a Chinese version is at the end of this page.
 
 <span class="anchor" id="zh"></span>
 
 # 中文摘要
 
-袁盛琪，UCSD 计算机科学与工程硕士在读（2027 届），本科武汉大学。方向：机器人软件、实验室自动化、智能体系统。做过：Rubik Pi 小车 AprilTag 闭环航点导航（方案设计、标定、实车验证）；边缘端 Transformer 推理调度（最优静态配置 Fix(18,2,2,2) 的平均推理时间比动态规划调度方案高 18.39%；受托主笔了青年科学基金申请书）；Mustango 乐理探测（和弦 0.88，随机 0.25）；GWAS 流水线（PLINK 对 GCTA）。2027 年 1 月起可实习。
+袁盛琪，UCSD 计算机科学与工程硕士在读（2027 届），本科武汉大学。方向：机器人软件、实验室自动化、智能体系统。做过：Rubik Pi 小车 AprilTag 闭环航点导航（方案设计、标定、实车验证）；边缘端 Transformer 推理调度（最优静态配置 Fix(18,2,2,2) 的平均推理时间比动态规划调度方案高 18.39%；受托主笔了青年科学基金申请书）；Mustango 乐理探测（和弦 0.88，随机 0.25）；GWAS 流水线（PLINK 对 GCTA）。2027 年 1 月起可实习。[中文简历（PDF）](pdf/Shengqi_Yuan_Resume_ZH.pdf)

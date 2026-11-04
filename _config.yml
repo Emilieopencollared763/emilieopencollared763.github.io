@@ -12,7 +12,7 @@ author:
   email            : "s7yuan@ucsd.edu"
   github           : "zzyzhbs"
   linkedin         : "shengqi-yuan"
-  # cv            : "pdf/Shengqi_Yuan_Resume_EN.pdf"   # re-enable when the new résumé is ready
+  cv               : "pdf/Shengqi_Yuan_Resume_EN.pdf"
 
 # Reading files
 include:
